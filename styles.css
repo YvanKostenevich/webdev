@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Roboto;
+    src: url(assets/fonts/Roboto-Medium.ttf);
+}
+html{
+    height: auto;
+}
+.bg-wrapper{
+    width: 1600px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
+.get-started{
+    background-image: url("assets/bg-image-wrapper.png");
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    color:white;
+    margin: 0 auto;
+}
+.header .header-nav{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 20px;
+    width: 585px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
