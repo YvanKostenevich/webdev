@@ -1,32 +1,42 @@
 @font-face {
     font-family: Roboto;
-    src: url(assets/fonts/Roboto-Medium.ttf);
+    src: url(assets/fonts/Roboto-Regular.ttf);
 }
+
 @font-face {
     font-family: RobotoBold;
     src: url(assets/fonts/Roboto-Bold.ttf);
 }
 
-html{
+@font-face {
+    font-family: RobotoMedium;
+    src: url(assets/fonts/Roboto-Medium.ttf);
+}
+
+html {
     height: auto;
 }
-.bg-wrapper{
+
+.bg-wrapper {
     width: 1600px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
 }
-.get-started{
+
+.get-started {
     background-image: url("assets/bg-image-wrapper.png");
     height: 744px;
     display: flex;
     flex-direction: column;
-    color:white;
+    color: white;
 }
-.header{
+
+.header {
 
     margin: 0 auto;
 }
-.header .header-nav{
+
+.header .header-nav {
     list-style-type: none;
     font-size: 14px;
     line-height: 20px;
@@ -35,58 +45,71 @@ html{
     justify-content: center;
     margin: 25px 55px 0 0;
 }
-.header-nav li{
+
+.header-nav li {
     padding: 0 46px 0 46px;
     margin: 0;
 }
-.header-nav a{
+
+.header-nav a {
     color: white;
     text-decoration: none;
     text-underline-offset: 2px;
 }
-.header-nav a:hover{
+
+.header-nav a:hover {
     border-bottom: 1px solid #FFF;
     padding-bottom: 2px;
 }
-.header-nav .header-nav_1{
+
+.header-nav .header-nav_1 {
     padding: 13px 48px 0 0;
 }
-.header-nav_1 a{
+
+.header-nav_1 a {
     border-bottom: 1px solid #FFF;
     padding-bottom: 2px;
 }
-.header-nav .header-nav_2{
+
+.header-nav .header-nav_2 {
     padding: 13px 54px 0 38px;
 }
-.header-nav .header-nav_3{
+
+.header-nav .header-nav_3 {
     padding: 0 46px 0 46px;
 }
-.header-nav .header-nav_4{
+
+.header-nav .header-nav_4 {
     padding: 13px 37px 0 55px;
 }
-.header-nav .header-nav_5{
+
+.header-nav .header-nav_5 {
     padding: 13px 0 0 46px;
 }
-.web-life{
+
+.web-life {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.web-life h2{
+
+.web-life h2 {
     font-family: RobotoBold, sans-serif;
     font-size: 64px;
     line-height: 75px;
     margin: 156px 0 2px 4px;
     letter-spacing: 4.5px;
 }
-.web-life p{
+
+.web-life p {
     width: 504px;
     font-size: 18px;
     line-height: 25px;
     padding-bottom: 12px;
 }
-.blue-button{
+
+.blue-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,14 +118,107 @@ html{
     width: 184px;
     height: 46px;
     background: #00AFDB;
+    color: white;
 }
-.blue-button:hover{
+
+.blue-button:hover {
     cursor: pointer;
 }
-.web-life-social{
+
+.web-life-social {
     width: 170px;
     display: flex;
     justify-content: space-between;
     align-self: center;
     margin-top: 183px;
+}
+
+.web-life-social img:hover {
+    cursor: pointer;
+}
+
+.rappresent {
+    display: flex;
+    height: 842px;
+}
+
+.rapp-description {
+    width: 407px;
+    display: flex;
+    flex-direction: column;
+    padding: 275px 0 0 268px;
+}
+
+.rapp-description h2 {
+    font-family: RobotoBold, sans-serif;
+    width: 370px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.rapp-description p {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin:  0 0 30px 0;
+}
+.rapp-photo{
+    padding: 120px 0 0 248px;
+}
+
+.community{
+    display: flex;
+    height: 504px;
+    background-color: #F5F6F7;
+}
+.comm-description{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    padding: 156px 0 0 268px;
+}
+.comm-description img{
+    width: 49px;
+    height: 49px;
+    align-self: center;
+}
+.comm-description h3{
+    font-family: RobotoMedium,sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #373737;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin: 16px 0 0 0;
+}
+.comm-description p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin: 9px 0 0 0;
+}
+.comm-photos{
+    display: flex;
+    flex-direction: column;
+    width: 896px;
+    overflow: hidden;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 0 0 138px;
+}
+.comm-slider{
+    padding: 77px 0 0 550px;
+}
+
+.comm-photos a{
+    text-decoration: none ;
+}
+.comm-pictures{
+    display: flex;
 }
