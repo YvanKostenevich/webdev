@@ -2,6 +2,11 @@
     font-family: Roboto;
     src: url(assets/fonts/Roboto-Medium.ttf);
 }
+@font-face {
+    font-family: RobotoBold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
 html{
     height: auto;
 }
@@ -15,9 +20,10 @@ html{
     height: 744px;
     display: flex;
     flex-direction: column;
+    color:white;
 }
 .header{
-    color:white;
+
     margin: 0 auto;
 }
 .header .header-nav{
@@ -25,7 +31,78 @@ html{
     font-size: 14px;
     line-height: 20px;
     width: 585px;
-    margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 25px 55px 0 0;
+}
+.header-nav li{
+    padding: 0 46px 0 46px;
+    margin: 0;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    text-underline-offset: 2px;
+}
+.header-nav a:hover{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 2px;
+}
+.header-nav .header-nav_1{
+    padding: 13px 48px 0 0;
+}
+.header-nav_1 a{
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 2px;
+}
+.header-nav .header-nav_2{
+    padding: 13px 54px 0 38px;
+}
+.header-nav .header-nav_3{
+    padding: 0 46px 0 46px;
+}
+.header-nav .header-nav_4{
+    padding: 13px 37px 0 55px;
+}
+.header-nav .header-nav_5{
+    padding: 13px 0 0 46px;
+}
+.web-life{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.web-life h2{
+    font-family: RobotoBold, sans-serif;
+    font-size: 64px;
+    line-height: 75px;
+    margin: 156px 0 2px 4px;
+    letter-spacing: 4.5px;
+}
+.web-life p{
+    width: 504px;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 12px;
+}
+.blue-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: RobotoBold, sans-serif;
+    font-size: 14px;
+    width: 184px;
+    height: 46px;
+    background: #00AFDB;
+}
+.blue-button:hover{
+    cursor: pointer;
+}
+.web-life-social{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 183px;
 }
