@@ -119,6 +119,7 @@ html {
     height: 46px;
     background: #00AFDB;
     color: white;
+    text-transform: uppercase;
 }
 
 .blue-button:hover {
@@ -164,31 +165,35 @@ html {
     font-family: RobotoMedium, sans-serif;
     font-size: 14px;
     line-height: 20px;
-    margin:  0 0 30px 0;
+    margin: 0 0 30px 0;
 }
-.rapp-photo{
+
+.rapp-photo {
     padding: 120px 0 0 248px;
 }
 
-.community{
+.community {
     display: flex;
     height: 504px;
     background-color: #F5F6F7;
 }
-.comm-description{
+
+.comm-description {
     display: flex;
     flex-direction: column;
     width: 300px;
     text-align: center;
     padding: 156px 0 0 268px;
 }
-.comm-description img{
+
+.comm-description img {
     width: 49px;
     height: 49px;
     align-self: center;
 }
-.comm-description h3{
-    font-family: RobotoMedium,sans-serif;
+
+.comm-description h3 {
+    font-family: RobotoMedium, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #373737;
@@ -196,37 +201,217 @@ html {
     letter-spacing: 2.4px;
     margin: 16px 0 0 0;
 }
-.comm-description p{
+
+.comm-description p {
     font-size: 14px;
     line-height: 20px;
     color: #4E4E4E;
     margin: 9px 0 0 0;
 }
-.comm-photos{
+
+.comm-photos {
     display: flex;
     flex-direction: column;
     width: 896px;
     overflow: hidden;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 18px;
     line-height: 25px;
     padding: 0px 0 0 138px;
 }
-.comm-slider{
+
+.comm-slider {
     padding: 78px 0 0 542px;
 }
 
-.comm-photos a{
-    text-decoration: none ;
+.comm-photos a {
+    text-decoration: none;
     color: #373737;
 }
-.comm-pictures{
+
+.comm-pictures {
     display: flex;
     padding: 17px 0 0 0;
 }
-.slider-img2{
+
+.slider-img2 {
     padding: 0 0 0 30px;
 }
-.slider-img3{
+
+.slider-img3 {
     padding: 0 0 0 30px;
+}
+
+.implement {
+    display: flex;
+    height: 842px;
+}
+
+.implement-photo {
+    padding: 120px 0 0 269px;
+}
+
+.implement-description {
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    padding: 299px 0 0 139px;
+}
+
+.implement-description h2 {
+    font-family: RobotoBold, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.implement-description p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    margin: 0 0 30px 0;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    height: 598px;
+    background-image: url("assets/pexels-christina-morillo-1181675 1.png");
+    background-size: cover;
+}
+
+.newsletter h2 {
+    font-family: RobotoBold, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 197px 0 0 610px;
+}
+
+.mail-prompt {
+    display: flex;
+}
+
+.mail-prompt input {
+    width: 316px;
+    height: 41px;
+    padding: 3px 0 0 21px;
+    margin: 9px 0 0 596px;
+}
+
+.submit {
+    width: 46px;
+    height: 46px;
+    margin: 10px 0 0 -1px;
+    font-size: 40px;
+    color: white;
+    padding: 0 0 0 21px;
+    background: #00AFDB;
+}
+
+.submit a {
+    text-decoration: none;
+    color: white;
+}
+
+.download {
+    display: flex;
+    height: 468px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download h2 {
+    font-family: RobotoBold, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    padding: 100px 0 0 0;
+    margin-bottom: 0;
+}
+
+.download p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+    width: 470px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    background-color: #F5F6F7;
+}
+
+.store a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-store {
+    display: flex;
+}
+
+.play-m {
+    display: flex;
+    margin: 0 0 0 28px;
+}
+
+.store-button {
+    font-family: RobotoBold, sans-serif;
+    background-color: #00AFDB;
+    width: 110px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 18px 0px 0 19px;
+    margin: 16px 0 0 0;
+}
+
+.store-icon {
+    width: 39px;
+    height: 36px;
+    background-color: #009CC2;
+    margin: 16px 0 0 0;
+    padding: 14px 0 0 20px;
+}
+
+.credits {
+    height: 184px;
+    display: flex;
+    background-color: black;
+    font-size: 14px;
+}
+
+.credits-nav {
+    color: white;
+    display: flex;
+    padding: 62px 0 0 141px;
+}
+.credits-nav p{
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #4E4E4E;
+    height: 14px;
+}
+.credits-nav p:last-child{
+    border: none;
+}
+.credits img{
+    padding: 60px 0 0 360px;
+    height: 45px;
+    width: 45px;
+}
+
+.ton-yem {
+    color: #818181;
+    padding: 61px 0 0 447px;
 }
