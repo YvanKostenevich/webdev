@@ -32,8 +32,11 @@ html {
 }
 
 .header {
-
     margin: 0 auto;
+}
+
+.heading {
+    display: none;
 }
 
 .header .header-nav {
@@ -397,15 +400,18 @@ html {
     display: flex;
     padding: 62px 0 0 141px;
 }
-.credits-nav p{
+
+.credits-nav p {
     padding: 0 20px 0 20px;
     border-right: 1px solid #4E4E4E;
     height: 14px;
 }
-.credits-nav p:last-child{
+
+.credits-nav p:last-child {
     border: none;
 }
-.credits img{
+
+.credits img {
     padding: 60px 0 0 360px;
     height: 45px;
     width: 45px;
